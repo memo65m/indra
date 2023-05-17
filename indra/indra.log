@@ -1,0 +1,54 @@
+2023-05-17 05:15:45.395  INFO 9344 --- [main] com.example.indra.IndraApplication       : Starting IndraApplication using Java 1.8.0_221 on DESKTOP-LPKN5E6 with PID 9344 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\version1\indra\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\version1\indra)
+2023-05-17 05:15:45.426  INFO 9344 --- [main] com.example.indra.IndraApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17 05:15:47.612  INFO 9344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17 05:15:47.745  INFO 9344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interfaces.
+2023-05-17 05:15:49.055  INFO 9344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-05-17 05:15:49.089  INFO 9344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17 05:15:49.090  INFO 9344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-17 05:15:49.501  INFO 9344 --- [main] o.a.c.c.C.[.[localhost].[/api/indra]     : Initializing Spring embedded WebApplicationContext
+2023-05-17 05:15:49.501  INFO 9344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3874 ms
+2023-05-17 05:15:49.568  INFO 9344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17 05:15:50.090  INFO 9344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17 05:15:50.137  INFO 9344 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-17 05:15:50.538  INFO 9344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17 05:15:54.689  INFO 9344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-17 05:15:55.321  INFO 9344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-17 05:15:55.560  INFO 9344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-17 05:15:57.210  INFO 9344 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17 05:15:57.232  INFO 9344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17 05:15:58.072  WARN 9344 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17 05:15:59.713  INFO 9344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/api/indra'
+2023-05-17 05:15:59.730  INFO 9344 --- [main] com.example.indra.IndraApplication       : Started IndraApplication in 16.337 seconds (JVM running for 19.095)
+2023-05-17 05:16:57.801  INFO 9344 --- [http-nio-8083-exec-9] o.a.c.c.C.[.[localhost].[/api/indra]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 05:16:57.802  INFO 9344 --- [http-nio-8083-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-17 05:16:57.804  INFO 9344 --- [http-nio-8083-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-17 05:17:00.423  INFO 9344 --- [http-nio-8083-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 403 ms
+2023-05-17 05:18:21.609  INFO 9344 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17 05:18:21.610  INFO 9344 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-05-17 05:18:21.626  INFO 9344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17 05:18:21.631  INFO 9344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-17 08:38:30.995  INFO 15844 --- [main] com.example.indra.IndraApplication       : Starting IndraApplication using Java 1.8.0_221 on DESKTOP-LPKN5E6 with PID 15844 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\version1\indra\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\version1\indra)
+2023-05-17 08:38:31.001  INFO 15844 --- [main] com.example.indra.IndraApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17 08:38:33.010  INFO 15844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17 08:38:33.160  INFO 15844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2023-05-17 08:38:34.335  INFO 15844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-05-17 08:38:34.358  INFO 15844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17 08:38:34.360  INFO 15844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-17 08:38:34.814  INFO 15844 --- [main] o.a.c.c.C.[.[localhost].[/api/indra]     : Initializing Spring embedded WebApplicationContext
+2023-05-17 08:38:34.815  INFO 15844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3722 ms
+2023-05-17 08:38:34.876  INFO 15844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17 08:38:35.320  INFO 15844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17 08:38:35.346  INFO 15844 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-17 08:38:36.077  INFO 15844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17 08:38:36.215  INFO 15844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-17 08:38:37.082  INFO 15844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-17 08:38:37.377  INFO 15844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-17 08:38:39.821  INFO 15844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17 08:38:39.847  INFO 15844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17 08:38:41.963  WARN 15844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17 08:38:45.046  INFO 15844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/api/indra'
+2023-05-17 08:38:45.073  INFO 15844 --- [main] com.example.indra.IndraApplication       : Started IndraApplication in 15.02 seconds (JVM running for 17.28)
+2023-05-17 08:43:20.837  INFO 15844 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17 08:43:20.839  INFO 15844 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-05-17 08:43:20.864  INFO 15844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17 08:43:20.870  INFO 15844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
